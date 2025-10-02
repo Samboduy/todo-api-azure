@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "8KE6NrxnI1c=",
+  "dgSpecHash": "Jyj8CmiFGm8=",
   "success": true,
-  "projectFilePath": "C:\\Users\\samda\\RiderProjects\\TodoListAzure\\TodoListAzure\\TodoListAzure.csproj",
+  "projectFilePath": "C:\\Users\\samda\\Documents\\GitHub\\todo-api-azure\\TodoListAzure\\TodoListAzure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\samda\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\samda\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

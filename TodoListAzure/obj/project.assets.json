@@ -5778,11 +5778,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\samda\\RiderProjects\\TodoListAzure\\TodoListAzure\\TodoListAzure.csproj",
+      "projectUniqueName": "C:\\Users\\samda\\Documents\\GitHub\\todo-api-azure\\TodoListAzure\\TodoListAzure.csproj",
       "projectName": "TodoListAzure",
-      "projectPath": "C:\\Users\\samda\\RiderProjects\\TodoListAzure\\TodoListAzure\\TodoListAzure.csproj",
+      "projectPath": "C:\\Users\\samda\\Documents\\GitHub\\todo-api-azure\\TodoListAzure\\TodoListAzure.csproj",
       "packagesPath": "C:\\Users\\samda\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\samda\\RiderProjects\\TodoListAzure\\TodoListAzure\\obj\\",
+      "outputPath": "C:\\Users\\samda\\Documents\\GitHub\\todo-api-azure\\TodoListAzure\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\samda\\AppData\\Roaming\\NuGet\\NuGet.Config"
