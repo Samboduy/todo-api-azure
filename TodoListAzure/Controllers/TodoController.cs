@@ -1,5 +1,6 @@
 using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.AspNetCore.Mvc;
+using TodoListAzure.Dto;
 using TodoListAzure.Models;
 using TodoListAzure.Services;
 
@@ -31,10 +32,15 @@ public class TodoController : ControllerBase
     }
 
     [HttpPost("/todo/add")]
-    public ActionResult AddTodo(Todo newTodo)
+    public ActionResult AddTodo(TodoDto  todoDto)
     {
+        var newTodo = new Todo
+        {
+            description = todoDto.description,
+            done = todoDto.done
+        };
         _todoService.AddTodo(newTodo);
-        return Ok("added" + newTodo);
+        return Ok("added");
     }
 
     [HttpDelete("/todo/delete")]
