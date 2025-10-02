@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TodoListAzure")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+09f5c33b1fe69c54a2ef9fac9582c9ab8ae0494f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2fca42d7e47804352d289521c64bb54695943eb0")]
 [assembly: System.Reflection.AssemblyProductAttribute("TodoListAzure")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TodoListAzure")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

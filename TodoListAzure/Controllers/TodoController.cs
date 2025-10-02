@@ -51,9 +51,14 @@ public class TodoController : ControllerBase
     }
 
     [HttpPut("/todo/update")]
-    public ActionResult UpdateTodo(Todo updatedTodo)
+    public ActionResult UpdateTodo(TodoDto updatedTodoDto)
     {
-        _todoService.UpdateTodo(updatedTodo);
+        var updatedtodo = new Todo()
+        {
+            description = updatedTodoDto.description,
+            done = updatedTodoDto.done
+        };
+        _todoService.UpdateTodo(updatedtodo);
         return Ok("updated");
     }
 }
